@@ -46,6 +46,11 @@ public class ChessMatch {
 		if(!board.thereIsAPiece(position)) {
 			throw new ChessException("Nao ha peca na posicao inicial.");
 		}
+		//valida se nao existe movimentos posiveis para a peca - fica travada
+		if(board.piece(position).isThereAnyPossibleMove()) {
+			throw new ChessException("Nao existe movimentos possiveis para a peca escolhida.");
+		}
+		
 	}
 	
 	public void placeNewPiece(char column, int row, ChessPiece piece) {
