@@ -24,7 +24,9 @@ public abstract class Piece {
 		boolean[][] matriz = possibleMoves();
 		for(int i = 0; i < matriz.length; i++) {
 			for(int j = 0; j < matriz.length; j++) {
-				return true;
+				if(matriz[i][j]) {
+					return true;
+				}				
 			}
 		}
 		return false;
