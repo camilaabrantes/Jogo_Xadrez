@@ -53,7 +53,7 @@ public class UI {
 	}
 
 	public static void printMatch(ChessMatch chessMatch, List<ChessPiece> captured) {
-		UI.printBoard(chessMatch.getPieces());	
+		printBoard(chessMatch.getPieces());
 		System.out.println();
 		printCapturedPieces(captured);
 		System.out.println();
