@@ -1,0 +1,7 @@
+package chess.piece;
+
+import chess.ChessPiece;
+
+public class Knight extends ChessPiece{
+
+}
