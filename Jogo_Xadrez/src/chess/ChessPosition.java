@@ -27,7 +27,11 @@ public class ChessPosition {
 		return new Position(8 - row, column - 'a');
 	}
 	
-	//converte da matriz para o xadrez
+	/*converte da matriz para o xadrez
+	*é um metodo static, pois não precisa de instancia, ou seja, não esta associado ao objeto
+	* pega qualquer posição do tipo position e converte para posição do tabuleiro de xadrez
+	* para alguma peça de xadrez pode usar
+	*/
 	protected static ChessPosition fromPosition(Position position){
 		return new ChessPosition((char) ('a' + position.getColumn()), 8 - position.getRow());
 	}
