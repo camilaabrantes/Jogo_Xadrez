@@ -10,8 +10,8 @@
 <fullyQualifiedTypeName name="boardgame.Board"/>
 <fullyQualifiedTypeName name="chess.Color"/>
 <fullyQualifiedTypeName name="boardgame.BoardException"/>
-<fullyQualifiedTypeName name="boardgame.Position"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-<fullyQualifiedTypeName name="chess.ChessException"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="boardgame.Position"/>
+<fullyQualifiedTypeName name="chess.ChessException"/>
 </qualifiedTypeNameHistroy>
